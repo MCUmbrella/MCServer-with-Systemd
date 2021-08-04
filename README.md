@@ -21,5 +21,6 @@
   - Restart interval can be set in the systemd script.
   - Type `systemctl stop mc` after /stop can cancel the automatic restart.
   - Set/cancel MC server autorun at boot: `systemctl enable/disable mc`
+
 Original page: https://www.relatev.com/forum.php?mod=viewthread&tid=2637 <br>
 Translated with www.DeepL.com/Translator (free version) - some small corrections by myself
