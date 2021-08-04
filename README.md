@@ -3,9 +3,9 @@
   - :point_up_2: with some easy to follow procedures to install and use
 # Installing:
 - **CAUTION:**
-  - The paths, parameters (e.g. -Xmx, -Xms) and server .jar file name in the script are all examples. Please change them according to the actual situation.
-  - The following operations require root permission.
   - Please make sure that GNU Screen is installed on your system, otherwise the service will not work.
+  - The following operations require root permission.
+  - The paths, parameters (e.g. -Xmx, -Xms) and server .jar file name in the script are all examples. Please change them according to the actual situation.
 - **Steps:**
   - Adjust the content of scripts according to your needs. For example: the file name of the systemd service script, Java command arguments, Screen session name and so on
   - Add the systemd script to /lib/systemd/system/
