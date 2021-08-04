@@ -1,17 +1,17 @@
 # Description:
   - This repo contains systemd script and shell script for Minecraft servers.
-  - with some easy to follow procedures to install and use
+  - :point_up_2: with some easy to follow procedures to install and use
 # Installing:
-## CAUTION:
-    - The paths, parameters (e.g. -Xmx, -Xms) and server .jar file name in the script are all examples. Please change them according to the actual situation.
-    - The following operations require root permission.
-    - Please make sure that GNU Screen is installed on your system, otherwise the service will not work.
-## Steps:
-    - Adjust the content of scripts according to your needs. For example: the file name of the systemd service script, Java command arguments, Screen session name and so on
-    - Add the systemd script to /lib/systemd/system/
-    - Add the bash script to the right folder.
-    - Type `systemctl daemon-reload` in the Linux terminal to reload the list of services
-    - Type `systemctl status mc` to see the service is loaded/started or not.
+- CAUTION:
+  - The paths, parameters (e.g. -Xmx, -Xms) and server .jar file name in the script are all examples. Please change them according to the actual situation.
+  - The following operations require root permission.
+  - Please make sure that GNU Screen is installed on your system, otherwise the service will not work.
+- Steps:
+  - Adjust the content of scripts according to your needs. For example: the file name of the systemd service script, Java command arguments, Screen session name and so on
+  - Add the systemd script to /lib/systemd/system/
+  - Add the bash script to the right folder.
+  - Type `systemctl daemon-reload` in the Linux terminal to reload the list of services
+  - Type `systemctl status mc` to see the service is loaded/started or not.
 # Useful tips:
   - Start/stop the MC server service: `systemctl start/stop mc`
   - View MC server console: `screen -x mc`
